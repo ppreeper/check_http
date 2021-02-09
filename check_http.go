@@ -9,18 +9,8 @@ import (
 
 func main() {
 	var urls = []string{
-		"http://www.arthomson.com",
-		"http://artgweb.arthomson.com",
-		"http://support.arthomson.com",
-		"http://icp-edm.arthomson.com",
-		"http://icp-red.arthomson.com",
-		"http://icp-sur.arthomson.com",
-		"http://doc.arthomson.local/alfresco/",
-		"http://reports.arthomson.local/Reports/Pages/Folder.aspx",
 		"http://un.org",
-		"http://jw.org",
-		"http://www.preeper.org",
-		"http://web.arthomson.com"}
+	}
 	var wg sync.WaitGroup
 	for i := 0; i < len(urls); i++ {
 		wg.Add(1)
